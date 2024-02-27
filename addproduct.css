@@ -1,0 +1,99 @@
+
+*{
+    background-image : src= "C:\xampp\htdocs\internshipProject\img\fruits.jpeg";
+}
+
+body {
+    background: var(--light-bg);
+   
+}
+
+form
+{
+max-width: 50rem;
+    border-radius: 8px;
+    background-color: var(--white);
+    border: 1px solid black;
+    width: 408px;
+    height: 657px;
+    
+    text-align: center;
+    margin: 0 auto;
+    box-shadow: var(--box-shadow);
+
+}
+
+.col-sm-4{
+    border: 3px solid green;
+   
+}
+h3{
+background-color: lightseagreen;
+}
+h3:hover{
+    background-color:green;
+    color: white;
+    
+}
+input.box
+{
+    width: 95%;
+    margin: 1rem 0;
+    font-size: 0.8rem;
+    color: var(--black);
+    border-radius: 0.5rem;
+    background-color:#F5F5F5 ;
+   padding:10px;
+    border: 1px solide #F5F5F5;
+    border-radius: 8px;
+}
+
+textarea.box
+{
+
+    width: 95%;
+    margin: 1rem 0;
+    font-size: 0.8rem;
+    color: var(--black);
+    border-radius: 0.5rem;
+    background-color:#F5F5F5 ;
+   padding:10px;
+    border: 1px solide #F5F5F5;
+    border-radius: 8px;
+}
+
+.row
+{
+    margin-top: 120px;
+  
+}
+img.pro
+{      
+    margin-top: 24px;
+    margin-left: 38px;
+    margin-bottom: 16px;
+
+        width: 280px;
+    height: 191px;
+}
+
+.btn
+{
+    cursor: pointer;
+    background-color: green;
+    color: black;
+    font-style: normal;
+}
+
+.col-sm-4
+{
+    
+    margin-top: 53px;
+}
+
+.reply
+{
+    border: none;
+        width: 361px;
+    height: 190px;
+}
